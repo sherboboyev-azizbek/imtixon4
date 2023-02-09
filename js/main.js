@@ -6,7 +6,7 @@ const localData = localStorage.getItem("token");
 const elLogOut = document.querySelector("#log-out-js")
 
 if(!localData) {
-   window.location.replace('login.html')
+   window.location.replace('register.html')
 }
 
 elLogOut.addEventListener("click", function(){
